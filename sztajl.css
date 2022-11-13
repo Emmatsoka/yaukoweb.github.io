@@ -1,0 +1,226 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(CuteFont-Regular.ttf);
+}
+@font-face {
+  font-family: andina;
+  src: url(Andina\ Demo.otf);
+}
+@font-face {
+  font-family: choco;
+  src: url(White\ Chocolate\ Mint\ -\ TTF.ttf)
+}
+@font-face {
+  font-family: aquate;
+  src: url(AquateScript_PERSONAL_USE_ONLY.ttf)
+}
+@font-face {
+  font-family: awesome;
+  src: url(Really\ Awesome\ -\ TTF.ttf)
+}
+body{
+    background-image: url('hatter2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eb6c6c;
+    font-family: andina;
+}
+
+body p{
+    background: #57E7C8;
+    background: linear-gradient(to right, #ea8a8a 0%, #d04646 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main{
+        margin: 2% 2%;
+        text-align: center;
+        border: 8px dotted #E97777;
+        padding: 5%;
+        border-radius: 50px;
+        background-color: rgba(255, 197, 197, 0.679);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.532);    
+}
+
+@media screen and (max-width: 500px) {
+  main{
+    background-color: rgba(0, 0, 0, 0.758);
+  }
+}
+
+main #p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: aquate;
+    font-weight: 50;
+    margin: 0;
+    font-size: 50px;
+    color: #E97777;
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 10vw;
+    }
+    main{
+        font-size: larger;
+    }
+  }
+
+  h3{
+    font-size: larger;
+  }
+
+h4{
+    margin: 0;
+    font-family: awesome;
+}
+
+p{
+    font-family: choco;
+    font-size: 250%;
+    font-weight: 500;
+}
+
+
+
+.navlinkek{
+	list-style: none;
+	
+}
+.navlinkek li{
+	display: inline-block;
+	padding: 0px 20px;
+	border: dotted 5px rgba(226,99,101,1.00);
+	transition: all 0.3s ease 0s;
+	border-radius: 30px;
+	
+}
+.navlinkek li a{
+	transition: all 0.3s ease 0s;
+	color: rgba(226,99,101,1.00);
+	text-decoration: none;
+  font-family: aquate;
+  font-size: 200%;
+  padding: 20px;
+}
+.navlinkek li a:hover{
+	color:#b75050;
+}
+.navlinkek li:hover{
+		border: solid 3px #cd5e5e;
+}
+
+@media screen and (max-width: 339px) {
+    table{
+        width: 10px;
+        height: auto;
+    }
+  }
+
+
+
+#caption{
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+#keszito{
+    font-family: awesome;
+    font-weight: 800;
+    font-size: 150%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #a53939;
+    
+}
+
+hr{
+    border: 1px dotted #E97777;
+   
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f9a7a7;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #E97777;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b75050;
+    border-radius: 5px;
+  }
+
+  img{
+    width: 30%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 700px) {
+    img{
+        width: 80%;
+        height: auto;
+      }
+      #logo{
+        width: 20%;
+        height: auto;
+      }
+  }
+
+  #hr{
+    max-width: 170px;
+    border: 3px solid #E97777;
+    border-radius: 5px;
+    background-color: #E97777;
+    margin: 0 auto;
+  }
+
+  #logo{
+    width: 7%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 1200px) {
+      #logo{
+        width: 20%;
+        height: auto;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    #logo{
+      width: 30%;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  main{
+  margin: 3% 1%;
+  }
+}
+
+#sotet{
+  color: #7a2929;
+  font-style: normal;
+  background-color: rgba(43, 221, 147, 0.173);
+}
+
