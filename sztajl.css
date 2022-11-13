@@ -169,10 +169,6 @@ hr{
     border-radius: 5px;
   }
 
-  img{
-    width: 30%;
-    height: auto;
-  }
 
   @media screen and (max-width: 700px) {
     img{
@@ -194,7 +190,7 @@ hr{
   }
 
   #logo{
-    width: 7%;
+    width: 10%;
     height: auto;
   }
 
