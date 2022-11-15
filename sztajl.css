@@ -18,6 +18,10 @@
   font-family: awesome;
   src: url(Really\ Awesome\ -\ TTF.ttf)
 }
+h2{
+	font-family: awesome;
+	font-size: 200%;
+}
 *{
   box-sizing: border-box;
 	margin: 0;
@@ -241,16 +245,21 @@ hr{
   }
 }
  #kartyak{
-  display: grid;
-  position:fixed;
+  display: inline;
+  list-style-type:none;
+  
 }
-
+ul{
+	list-style-type: none;
+}
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   border-radius: 20px;
+	display: inline-block;
+	
 }
 
 /* This container is needed to position the front and back side */
@@ -262,12 +271,14 @@ hr{
   transition: transform 0.8s;
   transform-style: preserve-3d;
   border-radius: 20px;
+	
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
   border-radius: 20px;
+	
 }
 
 /* Position the front and back side */
@@ -278,6 +289,8 @@ hr{
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius: 20px;
+	
+	border: solid 5px rgba(250,114,116,0.72);
   
 }
 
@@ -286,6 +299,7 @@ hr{
   background-color: #bbb;
   color: black;
   border-radius: 20px;
+	background:rgba(255,121,124,0.36);
 }
 
 /* Style the back side */
@@ -294,6 +308,7 @@ hr{
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
+	background:rgba(255,121,124,0.36);
 }
 .flip-card2 {
   background-color: transparent;
@@ -301,6 +316,7 @@ hr{
   height: 200px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   border-radius: 20px;
+	display: inline-block;
 }
 
 /* This container is needed to position the front and back side */
@@ -328,6 +344,7 @@ hr{
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius: 20px;
+	border: solid 5px rgba(250,114,116,0.72);
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -335,6 +352,7 @@ hr{
   background-color: #bbb;
   color: black;
   border-radius: 20px;
+	background:rgba(255,121,124,0.36);
 }
 
 /* Style the back side */
@@ -343,4 +361,5 @@ hr{
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
+	background:rgba(255,121,124,0.36);
 }
