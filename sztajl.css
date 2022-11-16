@@ -26,6 +26,8 @@ h2{
   box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=108553), auto;
+
 }
 
 body{
@@ -35,6 +37,7 @@ body{
     background-size: cover;
     color: #eb6c6c;
     font-family: andina;
+    
 }
 
 body p{
@@ -47,7 +50,7 @@ body p{
 }
 
 main{
-  margin: 5% 5%;
+  margin: 3% 3%;
         text-align: center;
 
         border-radius: 50px;
@@ -100,6 +103,7 @@ p{
 
 .navlinkek{
 	list-style: none;
+  
 	
 }
 .navlinkek li{
@@ -127,6 +131,7 @@ p{
   font-size: 200%;
   padding: 20px;
   background-color: transparent;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=108567), auto;
   
 
 }
@@ -241,6 +246,7 @@ hr{
   #logo{
     width: 10%;
     height: auto;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=163513), auto;
   }
 
   @media screen and (min-width: 1200px) {
@@ -346,6 +352,9 @@ ul{
   transform: rotateY(180deg);
   border-radius: 20px;
 	background:rgba(255,121,124,0.36);
+  width: 100%;
+  padding:0 auto;
+  font-size: 100%;
 }
 .flip-card-img img{
   padding-top: 3%;
@@ -354,4 +363,12 @@ ul{
 }
 .flip-card-img p{
   font-size: 200%;
+}
+
+@media screen and (max-width: 500px) {
+  .flip-card-back p{
+    max-width: fit-content;
+    max-height: fit-content;
+    font-size: 200%;
+  }
 }
