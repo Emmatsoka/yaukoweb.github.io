@@ -26,7 +26,7 @@ h2{
   box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=108553), auto;
+
 
 }
 
@@ -132,7 +132,7 @@ p{
   font-size: 200%;
   padding: 20px;
   background-color: transparent;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=108567), auto;
+ 
   
 
 }
@@ -247,7 +247,7 @@ hr{
   #logo{
     width: 10%;
     height: auto;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=163513), auto;
+
   }
 
   @media screen and (min-width: 1200px) {
@@ -314,7 +314,7 @@ ul{
   transition: transform 0.8s;
   transform-style: preserve-3d;
   border-radius: 20px;
-	
+  
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -406,7 +406,7 @@ border-radius: 5px;
   font-size: 200%;
   padding: 20px;
   background-color: transparent;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=108567), auto;
+ 
   
 
 }
