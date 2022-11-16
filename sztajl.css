@@ -47,6 +47,7 @@ body p{
     -webkit-text-fill-color: transparent;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0;
 }
 
 main{
@@ -371,4 +372,49 @@ ul{
     max-height: fit-content;
     font-size: 200%;
   }
+}
+.kartyalinkek{
+	list-style: none;
+  
+	
+}
+.kartyalinkek li{
+	display: inline-block;
+	padding-top: 10px;
+
+	width:50%;
+
+	transition: all 0.3s ease 0s;
+
+
+  
+
+border-radius: 5px;
+  border-bottom: 2px solid #E97777;
+
+}
+@media screen and (max-width: 500px) {
+  .kartyalinkek li{
+    width:100%;
+  }
+}
+.kartyalinkek li a{
+	transition: all 0.3s ease 0s;
+	color:#b75050;
+	text-decoration: none;
+  font-family: aquate;
+  font-size: 200%;
+  padding: 20px;
+  background-color: transparent;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=108567), auto;
+  
+
+}
+.kartyalinkek li a:hover{
+	
+  color: rgb(237, 147, 148);
+}
+.kartyalinkek li:hover{
+ 
+  background-color: rgba(226,99,101,1.00);
 }
