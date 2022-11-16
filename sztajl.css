@@ -47,12 +47,13 @@ body p{
 }
 
 main{
-        margin: 2% 2%;
+  margin: 5% 5%;
         text-align: center;
-        border: 8px dotted #E97777;
-        padding: 5%;
+
         border-radius: 50px;
-        background-color: rgba(255, 197, 197, 0.679);
+        padding: 5%;
+
+        background-color: rgb(255, 255, 255);
         box-shadow: 0 0 30px rgba(152, 72, 72, 0.532);   
 }
 
@@ -104,28 +105,38 @@ p{
 .navlinkek li{
 	display: inline-block;
 	padding: 0px 20px;
-	border: dotted 5px rgba(226,99,101,1.00);
+	
 	transition: all 0.3s ease 0s;
 	border-radius: 30px;
   margin-bottom: 8px;
   
-  
-	
+  border: 4px solid #E97777; 
+	background-color: #ffbdbd;
+ 
+}
+@media screen and (max-width: 500px) {
+  .navlinkek li{
+    width:100%;
+  }
 }
 .navlinkek li a{
 	transition: all 0.3s ease 0s;
-	color: rgba(226,99,101,1.00);
+	color:#b75050;
 	text-decoration: none;
   font-family: aquate;
   font-size: 200%;
   padding: 20px;
+  background-color: transparent;
+  
 
 }
 .navlinkek li a:hover{
-	color:#b75050;
+	
+  color: rgb(237, 147, 148);
 }
 .navlinkek li:hover{
-		border: solid 3px #cd5e5e;
+ 
+  background-color: rgba(226,99,101,1.00);
 }
 
 @media screen and (max-width: 339px) {
@@ -159,13 +170,28 @@ a{
   color: #912929;
   font-weight: 900;
 }
+@media screen and (max-width: 500px) {
+  #logo{
+    padding-top: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  main{
+    border-radius: 0px;
+    margin:0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+}
 hr{
-    border-top: 8px dotted #E97777;
+    border-top: 4px solid #E97777;
     border-bottom: 0px;
     border-right: 0px;
     border-left: 0px;
    margin-bottom: 1.2%;
-   min-width: 60%;
+   min-width: 100%;
    max-width: 90px;
    margin: 1.2% auto;
 }
@@ -202,9 +228,9 @@ hr{
   }
 
   #hr{
-    min-width: 60%;
+    min-width: 100%;
     max-width: 90px;
-    border-top: 8px dotted #E97777;
+    border-top: 4px solid #E97777;
     border-bottom: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -254,14 +280,24 @@ ul{
 }
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 50%;
   height: 200px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   border-radius: 20px;
 	display: inline-block;
 	
 }
-
+@media screen and (max-width: 500px) {
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    border-radius: 20px;
+    display: inline-block;
+    
+  }
+  }
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
@@ -290,7 +326,8 @@ ul{
   backface-visibility: hidden;
   border-radius: 20px;
 	
-	border: solid 5px rgba(250,114,116,0.72);
+  border: 4px solid #E97777; 
+
   
 }
 
@@ -304,62 +341,17 @@ ul{
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(255, 138, 156);
+  background-color: #ffbdbd;
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
 	background:rgba(255,121,124,0.36);
 }
-.flip-card2 {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  border-radius: 20px;
-	display: inline-block;
+.flip-card-img img{
+  padding-top: 3%;
+  width:20vh;
+  height:auto;
 }
-
-/* This container is needed to position the front and back side */
-.flip-card-inner2 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  border-radius: 20px;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card2:hover .flip-card-inner2 {
-  transform: rotateY(180deg);
-  border-radius: 20px;
-}
-
-/* Position the front and back side */
-.flip-card-front2, .flip-card-back2 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  border-radius: 20px;
-	border: solid 5px rgba(250,114,116,0.72);
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front2 {
-  background-color: #bbb;
-  color: black;
-  border-radius: 20px;
-	background:rgba(255,121,124,0.36);
-}
-
-/* Style the back side */
-.flip-card-back2 {
-  background-color: rgb(255, 138, 156);
-  color: white;
-  transform: rotateY(180deg);
-  border-radius: 20px;
-	background:rgba(255,121,124,0.36);
+.flip-card-img p{
+  font-size: 200%;
 }
