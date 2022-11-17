@@ -351,6 +351,12 @@ ul{
   padding:0 auto;
   font-size: 100%;
 }
+
+.flip-card-img1 img{
+  padding-top: 3%;
+  width:10vh;
+  height:auto;
+}
 .flip-card-img img{
   padding-top: 3%;
   width:20vh;
@@ -409,6 +415,59 @@ border-radius: 5px;
   color: rgb(237, 147, 148);
 }
 .kartyalinkek li:hover{
+ 
+  background-color: rgba(226,99,101,1.00);
+}
+
+
+
+
+
+
+
+
+.kartyalinkek1{
+	list-style: none;
+  
+	
+}
+.kartyalinkek1 li{
+	display: inline-block;
+	padding-top: 10px;
+
+	width:50%;
+
+	transition: all 0.3s ease 0s;
+
+
+  
+
+border-radius: 5px;
+  border-bottom: 2px solid #E97777;
+
+}
+@media screen and (max-width: 500px) {
+  .kartyalinkek1 li{
+    width:100%;
+  }
+}
+.kartyalinkek1 li a{
+	transition: all 0.3s ease 0s;
+	color:#b75050;
+	text-decoration: none;
+  font-family: aquate;
+  font-size: 200%;
+  padding: 20px;
+  background-color: transparent;
+ 
+  
+
+}
+.kartyalinkek1 li a:hover{
+	
+  color: rgb(237, 147, 148);
+}
+.kartyalinkek1 li:hover{
  
   background-color: rgba(226,99,101,1.00);
 }
