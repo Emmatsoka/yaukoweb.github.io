@@ -355,19 +355,43 @@ ul{
 /* 2. kártya képe */
 .flip-card-img1 img{
   padding-top: 3%;
-  width:10vh;
+  width:20%;
   height:auto;
 }
 /* 1. kártya képe */
 .flip-card-img img{
   padding-top: 3%;
-  width:20vh;
+  min-width:20%;
+  max-width:50%;
   height:auto;
 }
-.flip-card-img p{
-  font-size: 200%;
+.flip-card-img{
+  font-size: 100%;
 }
-
+@media screen and (min-width: 1000px) {
+  .flip-card-img1 img{
+    padding-top: 3%;
+    width:10%;
+    height:auto;
+  }
+  .flip-card-img img{
+    padding-top: 3%;
+    width:10%;
+    height:auto;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .flip-card-img1 img{
+    padding-top: 3%;
+    width:7%;
+    height:auto;
+  }
+  .flip-card-img img{
+    padding-top: 3%;
+    width:10%;
+    height:auto;
+  }
+}
 @media screen and (max-width: 500px) {
   .flip-card-back p{
     max-width: fit-content;
