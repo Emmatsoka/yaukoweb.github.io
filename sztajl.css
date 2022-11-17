@@ -408,15 +408,9 @@ ul{
 .kartyalinkek li{
 	display: inline-block;
 	padding-top: 10px;
-
 	width:50%;
-
 	transition: all 0.3s ease 0s;
-
-
-  
-
-border-radius: 5px;
+  border-radius: 5px;
   border-bottom: 2px solid #E97777;
 
 }
