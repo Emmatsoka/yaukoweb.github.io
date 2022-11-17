@@ -283,7 +283,7 @@ ul{
   background-color: transparent;
   width: 50%;
   height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ /* perspective: 1000px;  Remove this if you don't want the 3D effect */
   border-radius: 20px;
 	display: inline-block;
 	
@@ -352,11 +352,13 @@ ul{
   font-size: 100%;
 }
 
+/* 2. kártya képe */
 .flip-card-img1 img{
   padding-top: 3%;
   width:10vh;
   height:auto;
 }
+/* 1. kártya képe */
 .flip-card-img img{
   padding-top: 3%;
   width:20vh;
@@ -373,6 +375,7 @@ ul{
     font-size: 200%;
   }
 }
+
 .kartyalinkek{
 	list-style: none;
   
