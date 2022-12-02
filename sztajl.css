@@ -110,7 +110,7 @@ p{
 
 .navlinkek li{
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 10px;
 	transition: all 0.5s ease 0s;
 	border-radius: 30px;
 	margin-top: 8px;
@@ -138,7 +138,7 @@ p{
 	text-decoration: none;
   font-family: aquate;
   font-size: 200%;
-  padding: 20px;
+  padding: 30px;
   background-color: transparent;
 }
 .navlinkek li a:hover{
@@ -147,6 +147,10 @@ p{
 .navlinkek li:hover{
   background-color: rgba(226,99,101,1.00);
 }
+.navlinkek li:hover{
+  -webkit-text-fill-color: white;
+}
+
 
 @media screen and (max-width: 339px) {
     table{
@@ -298,7 +302,7 @@ ul{
     background-color: transparent;
     width: 100%;
     height: 200px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
     border-radius: 20px;
     display: inline-block;
   }
@@ -345,10 +349,14 @@ ul{
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
-	background:rgba(255,121,124,0.36);
+  background:rgba(255,121,124,0.36);
   width: 100%;
   padding:0 auto;
   font-size: 100%;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 /* 2. kártya képe */
@@ -474,6 +482,7 @@ border-radius: 5px;
 
 .kartyalinkek1 li:hover{
   background-color: rgba(226,99,101,1.00);
+  -webkit-text-fill-color: white;
 }
 
 
