@@ -298,11 +298,23 @@ ul{
 	list-style-type: none;
 }
 
+
 .flip-card {
   background-color: transparent;
   width: 19.5em;
   height: 300px;
   border-radius: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .flip-card {
+    background-color: transparent;
+    width: 23.5em;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+
 }
 
 .flip-card-inner {
@@ -384,18 +396,11 @@ ul li{
   padding-top: 20px;
   width:100%;
   transition: all 0.3s ease 0s;
-  border-radius: 20px;
+  border-radius: 5px;
   border-bottom: 2px solid #E97777;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+
 }
-@media screen and (max-width: 500px) {
-  .kartyalinkek li{
-    width:100%;
-  }
-}
+
 .kartyalinkek li a{
 	transition: all 0.3s ease 0s;
 	color:#b75050;
