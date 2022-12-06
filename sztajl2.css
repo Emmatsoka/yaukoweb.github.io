@@ -146,6 +146,7 @@ p{
 }
 .navlinkek li:hover{
   background-color: rgba(226,99,101,1.00);
+  -webkit-text-fill-color: white;
 }
 .navlinkek li:hover{
   -webkit-text-fill-color: white;
@@ -398,7 +399,7 @@ ul li{
   transition: all 0.3s ease 0s;
   border-radius: 5px;
   border-bottom: 2px solid #E97777;
-
+  -webkit-text-fill-color: white;
 }
 
 .kartyalinkek li a{

@@ -146,6 +146,7 @@ p{
 }
 .navlinkek li:hover{
   background-color: rgba(226,99,101,1.00);
+  -webkit-text-fill-color: white;
 }
 .navlinkek li:hover{
   -webkit-text-fill-color: white;
@@ -289,13 +290,13 @@ hr{
 @media screen and (max-width: 500px) {
   .flip-card {
     background-color: transparent;
-    width: 100%;
-    height: 200px;
+    width: 19.5em;
+    height: 300px;
     border-radius: 20px;
-    display: inline-block;
+  }  
   }
-  }
-ul{
+
+  ul{
 	list-style-type: none;
 }
 
@@ -304,9 +305,11 @@ ul{
 .flip-card {
   background-color: transparent;
   width: 19.5em;
-  height: 200px;
+  height: 300px;
   border-radius: 20px;
 }
+
+
 @media screen and (min-width: 480px) {
   .flip-card {
     background-color: transparent;
@@ -317,6 +320,7 @@ ul{
 
 
 }
+
 .flip-card-inner {
 
   position: relative;
@@ -349,7 +353,7 @@ ul{
 }
 
 .flip-card-front {
-  padding-top: 20%;
+  padding-top: 16%;
   background-color: #bbb;
   color: black;
   border-radius: 20px;
@@ -360,18 +364,12 @@ ul{
 
 ul li{
   display: inline-block;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   padding-right: 1%;
   padding-left: 1%;
 }
 
-@media screen and (max-width: 500px) {
-  .flip-card-back p{
-    max-width: fit-content;
-    max-height: fit-content;
-    font-size: 200%;
-  }
-}
+
 /* Style the back side */
 .flip-card-back {
   background-color: #ffbdbd;
@@ -381,7 +379,7 @@ ul li{
   background:rgba(255,121,124,0.36);
   width: 100%;
   padding:0 auto;
-  font-size: 100%;
+
   -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
   -ms-transform: rotateX(180deg);
@@ -390,13 +388,13 @@ ul li{
 
 /* 2. kártya képe */
 .flip-card-img1 img{
-  padding-top: 3%;
+  padding-top: 2%;
   width:20%;
   height:auto;
 }
 /* 1. kártya képe */
 .flip-card-img img{
-  padding-top: 3%;
+  padding-top: 2%;
   min-width:20%;
   max-width:50%;
   height:auto;
