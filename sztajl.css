@@ -361,15 +361,6 @@ hr{
 }
 
 
-
-ul li{
-  display: inline-block;
-  padding-bottom: 2%;
-  padding-right: 1%;
-  padding-left: 1%;
-}
-
-
 /* Style the back side */
 .flip-card-back {
   background-color: #ffbdbd;
@@ -385,6 +376,15 @@ ul li{
   -ms-transform: rotateX(180deg);
   -o-transform: rotateX(180deg);
 }
+
+ul li{
+  display: inline-block;
+  padding-bottom: 2%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+
 
 /* 2. kártya képe */
 .flip-card-img1 img{
@@ -402,6 +402,8 @@ ul li{
 .flip-card-img{
   font-size: 100%;
 }
+
+
 
 
 /* kartyalinkek 1*/
@@ -487,4 +489,41 @@ border-radius: 5px;
   -webkit-text-fill-color: white;
 }
 
+
+/* kartyalinkek 3*/
+.kartyalinkek2{
+	list-style: none;
+  padding-top: 13px;
+}
+.kartyalinkek2 li{
+	display: inline-block;
+	padding-top: 10px;
+	width:100%;
+	transition: all 0.3s ease 0s;
+  border-radius: 5px;
+  border-bottom: 2px solid #E97777;
+
+}
+@media screen and (max-width: 500px) {
+  .kartyalinkek2 li{
+    width:100%;
+  }
+}
+.kartyalinkek2 li a{
+	transition: all 0.3s ease 0s;
+	color:#b75050;
+	text-decoration: none;
+  font-family: aquate;
+  font-size: 200%;
+  padding: 20px;
+  background-color: transparent;
+}
+.kartyalinkek2 li a:hover{
+  color: rgb(255, 255, 255);
+}
+
+.kartyalinkek2 li:hover{
+  background-color: rgba(226,99,101,1.00);
+  -webkit-text-fill-color: white;
+}
 
